@@ -41,6 +41,16 @@ h2 {
     padding: 20px;
 }
 
+body > .container {
+    background-color: whitesmoke;
+}
+
+a {
+    color: darkorange;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .glow {
     font-size: 70px;
     color: #fff;
