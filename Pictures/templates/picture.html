@@ -1,0 +1,40 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="{% static 'script.js' %}"></script>  
+		<link rel="stylesheet" href="{% static 'styles.css' %}">
+        <title>Collection</title>
+	</head>
+    <body>
+        <h1 class="glow">Hello there<h1>
+        <h2>Pictures :</h2>
+
+        <div class="arti">
+
+            <div class="adiv1">
+                <button onclick="myFunction('s1')"><img class="pic" src="{% static "images/original.jpg" %}" alt="diam1"></button>
+                <p>Article 1</p>
+                <p style="display:none;" id="s1">price : 13 000$</p>
+            </div>
+            <div class="adiv2">
+                <button onclick="myFunction('s2')"><img class="pic" src="{% static "images/5b950f3281e4db1498aab07e4a957432.jpg" %}" alt="diam1"></button>
+                <p>Article 2</p>
+                <p style="display:none;" id="s2">price : 800 000$</p>
+            </div>
+            <div class="adiv3">
+                <button onclick="myFunction('s3')"><img class="pic" src="{% static "images/original2.jpg" %}" alt="diam1"></button>
+                <p>Article 3</p>
+                <p style="display:none;" id="s3">price : 50 000$</p>
+            </div>
+
+        </div>
+       
+        
+
+
+    </body>
+</html>

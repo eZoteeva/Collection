@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+}
+h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: whitesmoke;
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.arti {
+    display: flex;
+    justify-content: center;
+}
+
+.pic {
+    width: 500px;
+    height: 500px;
+}
+
+.adiv1 {
+    display: inline-block;
+    padding: 20px;
+}
+
+.adiv2 {
+    display: inline-block;
+    padding: 20px;
+}
+
+.adiv3 {
+    display: inline-block;
+    padding: 20px;
+}
+
+.glow {
+    font-size: 70px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #c2a500, 0 0 40px #e69600, 0 0 50px #e2e600, 0 0 60px #ffe713, 0 0 70px #fbff02;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffee00, 0 0 60px #ffd900, 0 0 70px #ffffff, 0 0 80px #ffffff;
+    }
+  }
